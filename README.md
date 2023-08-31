@@ -1,14 +1,19 @@
-# CSAPP-Lab
+# CSAPP-3e
+
+![](img/XL.jpeg)
 The lab of Computer Systems: A Programmer's Perspective
 
-The original lab files are downloaded from the [official site](http://csapp.cs.cmu.edu).
+The original lab files are downloaded from the [official site](http://csapp.cs.cmu.edu/3e/labs.html).
 
 1. Data Lab
 2. Bomb Lab
-3. Buffer Lab
-4. Sim Lab
-5. Asm Lab
+3. Attack Lab
+4. Buffer Lab
+5. Architecture Lab
 6. Cache Lab
-7. Arch Lab
-8. Malloc Lab
-9. [Proxy Lab](./9 Proxy Lab)
+7. Performance Lab
+8. Shell Lab
+9. Malloc Lab
+10. Proxy Lab
+
+- [blog ref](https://it-eldorado.tistory.com/32)
