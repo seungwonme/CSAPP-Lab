@@ -15,7 +15,7 @@ int	main(void)
 	printf("%llX\n", aval);
 	printf("%llX\n", uval);
 
-	int c = 0x66 >> 2;
+	int c = 0x66 >> 2; // 0110 0110 >> 2 = 0001 1001 = 0x19
 	printf("0x%X\n", c);
 	return (0);
 }
