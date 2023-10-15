@@ -16,4 +16,6 @@ The original lab files are downloaded from the [official site](http://csapp.cs.c
 9. Malloc Lab
 10. Proxy Lab
 
+- [lecture](http://www.cs.cmu.edu/afs/cs/academic/class/15213-f16/www/schedule.html)
+- [youtube](https://www.youtube.com/watch?v=4CpHpFu_KYM&list=PLbY-cFJNzq7z_tQGq-rxtq_n2QQDf5vnM)
 - [blog ref](https://it-eldorado.tistory.com/32)

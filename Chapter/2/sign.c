@@ -29,6 +29,15 @@ int	fun2(unsigned word) {
 	return (int)((word << 24) >> 24);
 }
 
+float	sum_elements(float a[], unsigned length)
+{
+	float result = 0;
+
+	for (int i = 0; i < length - 1; i++)
+		result += a[i];
+	return (result);
+}
+
 int	main(void)
 {
 	/* int				 i = 0xFFFFFFFF;
@@ -63,13 +72,16 @@ int	main(void)
 	for (size_t i = 0; i < 4; i++)
 		printf("%d, %d\n", fun1(w[i]), fun2(w[i])); */
 
-	int		x = 53191;
+	/* int		x = 53191;
 	short	sx = (short) x; // 32bit int -> 16bit short
 	int		y = sx;
 
 	show_bytes((byte_ptr) &x, sizeof(int));
 	show_bytes((byte_ptr) &sx, sizeof(int));
 	show_bytes((byte_ptr) &y, sizeof(int));
-	printf("x : %d, y : %d\n", x, y);
+	printf("x : %d, y : %d\n", x, y); */
+
+	float arr[3] = {1, 2, 3};
+	sum_elements(arr, 0);
 	return (0);
 }
